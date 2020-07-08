@@ -50,7 +50,7 @@ body, html{
     width: 96%;
     margin: 0 auto;
 }
-.menu hr{
+div+hr{
     border-top: 2px dotted white;
     width: 95%;
     margin-top: 0.3em;
@@ -61,10 +61,19 @@ body, html{
 }
 .card{
     max-width: 400px;
-    margin:0 auto;
 }
 .card-deck{
     margin-bottom: 2em;
     background-color: #e9ecef;
     border-radius: .3rem;
+}
+.card-deck .card{
+    margin-bottom: 20px;
+}
+.card-body hr{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.card-title{
+    margin-bottom: 1px;
 }
