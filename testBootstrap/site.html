@@ -18,7 +18,7 @@
 <body>
 
 <!--HEADER-->
-<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
     <div class="container-fluid">
         <a href="#" class="navbar-brand"><img src="img/flexbe_logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -42,7 +42,7 @@
             <div class="carousel-caption">
                 <h1 class="display-2">Sushi</h1>
                 <h3>Try our new sushi</h3>
-                <button type="button" class="btn btn-outline-light btn-lg">See</button>
+                <a href="#Sushi"><button type="button" class="btn btn-outline-light btn-lg">See</button></a>
             </div>
         </div>
         <div class="carousel-item">
@@ -50,7 +50,7 @@
             <div class="carousel-caption">
                 <h1 class="display-2">Dessert</h1>
                 <h3>Try our new desserts</h3>
-                <button type="button" class="btn btn-outline-light btn-lg">See</button>
+                <a href="#Desserts"><button type="button" class="btn btn-outline-light btn-lg">See</button></a>
             </div>
         </div>
         <div class="carousel-item">
@@ -58,7 +58,7 @@
             <div class="carousel-caption">
                 <h1 class="display-2">Hot meals</h1>
                 <h3>Try our new hot meals</h3>
-                <button type="button" class="btn btn-outline-light btn-lg">See</button>
+                <a href="#HotMeals"><button type="button" class="btn btn-outline-light btn-lg">See</button></a>
             </div>
         </div>
     </div>
@@ -86,10 +86,10 @@
             <a href="#Sushi"><button class="btn btn-light btn-lg" type="button">Sushi</button></a>
         </div>
         <div class="col-3 text-left">
-            <a href="#"><button class="btn btn-light btn-lg" type="button">Hot meals</button></a>
+            <a href="#HotMeals"><button class="btn btn-light btn-lg" type="button">Hot Meals</button></a>
         </div>
         <div class="col-3 text-left">
-            <a href="#"><button class="btn btn-light btn-lg" type="button">Desserts</button></a>
+            <a href="#Desserts"><button class="btn btn-light btn-lg" type="button">Desserts</button></a>
         </div>
     </div>
 </div>
@@ -295,6 +295,251 @@
         </div>
     </div>
 </div>
+
+<!--HOT-MEALS-->
+<div class="card-deck padding alert">
+    <div class="row">
+        <div class="col-12 text-center mb-4">
+            <a name="HotMeals"><h2>Hot Meals</h2></a>
+        </div>
+        <hr>
+        <div class="col-4">
+            <div class="card">
+                <img class="card-img-top" src="img/HotMeal1.jpg" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title ">Lasagne</h5>
+                    <div class="price d-inline">390P</div>
+                    <button type="button" id="HotMeal1" class="btn btn-secondary btn-sm">+</button>
+                    <button type="button" id="HotMeal1" class="btn btn-secondary btn-sm">-</button>
+                    <hr>
+                    <p class="card-text">Ingredients</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img class="card-img-top" src="img/HotMeal2.jpg" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title ">Brisket with mashed potatoes</h5>
+                    <div class="price d-inline">450P</div>
+                    <button type="button" id="HotMeal2" class="btn btn-secondary btn-sm">+</button>
+                    <button type="button" id="HotMeal2" class="btn btn-secondary btn-sm">-</button>
+                    <hr>
+                    <p class="card-text">Ingredients</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img class="card-img-top" src="img/HotMeal3.jpg" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title ">Spaghetti Сarbonara</h5>
+                    <div class="price d-inline">390P</div>
+                    <button type="button" id="HotMeal3" class="btn btn-secondary btn-sm">+</button>
+                    <button type="button" id="HotMeal3" class="btn btn-secondary btn-sm">-</button>
+                    <hr>
+                    <p class="card-text">Ingredients</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img class="card-img-top" src="img/HotMeal4.jpg" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title ">Brisket with rice unagi</h5>
+                    <div class="price d-inline">390P</div>
+                    <button type="button" id="HotMeal4" class="btn btn-secondary btn-sm">+</button>
+                    <button type="button" id="HotMeal4" class="btn btn-secondary btn-sm">-</button>
+                    <hr>
+                    <p class="card-text">Ingredients</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img class="card-img-top" src="img/HotMeal5.jpg" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title ">Stewed veal</h5>
+                    <div class="price d-inline">390P</div>
+                    <button type="button" id="HotMeal5" class="btn btn-secondary btn-sm">+</button>
+                    <button type="button" id="HotMeal5" class="btn btn-secondary btn-sm">-</button>
+                    <hr>
+                    <p class="card-text">Ingredients</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img class="card-img-top" src="img/HotMeal6.jpg" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title ">Lamb steak</h5>
+                    <div class="price d-inline">390P</div>
+                    <button type="button" id="HotMeal6" class="btn btn-secondary btn-sm">+</button>
+                    <button type="button" id="HotMeal6" class="btn btn-secondary btn-sm">-</button>
+                    <hr>
+                    <p class="card-text">Ingredients</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img class="card-img-top" src="img/HotMeal7.jpg" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title ">LSalmon steak</h5>
+                    <div class="price d-inline">580P</div>
+                    <button type="button" id="HotMeal7" class="btn btn-secondary btn-sm">+</button>
+                    <button type="button" id="HotMeal7" class="btn btn-secondary btn-sm">-</button>
+                    <hr>
+                    <p class="card-text">Ingredients</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img class="card-img-top" src="img/HotMeal8.jpg" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title ">Teriyaki salmon bowl</h5>
+                    <div class="price d-inline">460P</div>
+                    <button type="button" id="HotMeal8" class="btn btn-secondary btn-sm">+</button>
+                    <button type="button" id="HotMeal8" class="btn btn-secondary btn-sm">-</button>
+                    <hr>
+                    <p class="card-text">Ingredients</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--Desserts-->
+<div class="card-deck padding alert">
+    <div class="row">
+        <div class="col-12 text-center mb-4">
+            <a name="Desserts"><h2>Desserts</h2></a>
+        </div>
+        <hr>
+        <div class="col-4">
+            <div class="card">
+                <img class="card-img-top" src="img/Dessert1.jpg" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title ">Raspberry sorbet</h5>
+                    <div class="price d-inline">440P</div>
+                    <button type="button" id="Dessert1" class="btn btn-secondary btn-sm">+</button>
+                    <button type="button" id="Dessert1" class="btn btn-secondary btn-sm">-</button>
+                    <hr>
+                    <p class="card-text">Ingredients</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img class="card-img-top" src="img/Dessert2.jpg" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title ">Gelato yogurt</h5>
+                    <div class="price d-inline">450P</div>
+                    <button type="button" id="Dessert2" class="btn btn-secondary btn-sm">+</button>
+                    <button type="button" id="Dessert2" class="btn btn-secondary btn-sm">-</button>
+                    <hr>
+                    <p class="card-text">Ingredients</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img class="card-img-top" src="img/Dessert3.jpg" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title ">Honey cake</h5>
+                    <div class="price d-inline">250P</div>
+                    <button type="button" id="Dessert3" class="btn btn-secondary btn-sm">+</button>
+                    <button type="button" id="Dessert3" class="btn btn-secondary btn-sm">-</button>
+                    <hr>
+                    <p class="card-text">Ingredients</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img class="card-img-top" src="img/Dessert4.jpg" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title ">Tres Leches</h5>
+                    <div class="price d-inline">260P</div>
+                    <button type="button" id="Dessert4" class="btn btn-secondary btn-sm">+</button>
+                    <button type="button" id="Dessert4" class="btn btn-secondary btn-sm">-</button>
+                    <hr>
+                    <p class="card-text">Ingredients</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img class="card-img-top" src="img/Dessert5.jpg" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title ">Tiramisu</h5>
+                    <div class="price d-inline">260P</div>
+                    <button type="button" id="Dessert5" class="btn btn-secondary btn-sm">+</button>
+                    <button type="button" id="Dessert5" class="btn btn-secondary btn-sm">-</button>
+                    <hr>
+                    <p class="card-text">Ingredients</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img class="card-img-top" src="img/Dessert6.jpg" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title ">Classic cheesecake</h5>
+                    <div class="price d-inline">250P</div>
+                    <button type="button" id="Dessert6" class="btn btn-secondary btn-sm">+</button>
+                    <button type="button" id="Dessert6" class="btn btn-secondary btn-sm">-</button>
+                    <hr>
+                    <p class="card-text">Ingredients</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img class="card-img-top" src="img/Dessert7.jpg" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title ">Panna cotta</h5>
+                    <div class="price d-inline">250P</div>
+                    <button type="button" id="Dessert7" class="btn btn-secondary btn-sm">+</button>
+                    <button type="button" id="Dessert7" class="btn btn-secondary btn-sm">-</button>
+                    <hr>
+                    <p class="card-text">Ingredients</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img class="card-img-top" src="img/Dessert8.jpg" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title ">Cheesecakes with sour cream</h5>
+                    <div class="price d-inline">250P</div>
+                    <button type="button" id="Dessert8" class="btn btn-secondary btn-sm">+</button>
+                    <button type="button" id="Dessert8" class="btn btn-secondary btn-sm">-</button>
+                    <hr>
+                    <p class="card-text">Ingredients</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img class="card-img-top" src="img/Dessert9.jpg" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title ">Pancakes with chocolate</h5>
+                    <div class="price d-inline">220P</div>
+                    <button type="button" id="Dessert9" class="btn btn-secondary btn-sm">+</button>
+                    <button type="button" id="Dessert9" class="btn btn-secondary btn-sm">-</button>
+                    <hr>
+                    <p class="card-text">Ingredients</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
 
 </body>
 </html>
