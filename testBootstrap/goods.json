@@ -1,0 +1,27 @@
+{
+  "Pizza1" : {
+    "name" : "Pizza with brisket",
+    "cost" : "500",
+    "description" : "Tasty pizza",
+    "image" : "img/pizza1.jpg"
+  },
+  "Pizza2" : {
+    "name" : "Pizza with brisket",
+    "cost" : "500",
+    "description" : "Tasty pizza",
+    "image" : "img/pizza2.jpg"
+  },
+  "Pizza3" : {
+    "name" : "Pizza with brisket",
+    "cost" : "500",
+    "description" : "Tasty pizza",
+    "image" : "img/pizza3.jpg"
+  },
+  "Pizza4" : {
+    "name" : "Pizza with brisket",
+    "cost" : "500",
+    "description" : "Tasty pizza",
+    "image" : "img/pizza4.jpg"
+  }
+
+}
